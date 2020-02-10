@@ -1,7 +1,10 @@
+import './Todos.scss';
+
 import React from 'react';
 
+
 const defaultTodos = [
-  {text: 'do this', completed: false },
+  {text: 'pay the bills', completed: false },
   {text: 'do this', completed: false },
   {text: 'do this', completed: true },
 ]
@@ -38,7 +41,7 @@ export default function Todos() {
   return (
     <ul className="todos">
       {todos.map(({ text, completed }, item) => (
-        <li key={item} className={('todo', {done: completed })}>
+        <li key={item} className="test"{...({done: completed })}>
           <span>{text}</span>
 
           {!completed && (

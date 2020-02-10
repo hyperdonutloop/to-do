@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './App.module.scss'
 
 //components
-
 import Header from './components/Header.js';
 import Todos from './components/Todos.js';
 import Footer from './components/Footer.js';

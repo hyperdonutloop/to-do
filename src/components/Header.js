@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header>
       <img src={logo} alt="React" />
-      <h1>localtodo-react</h1>
-      <p>a simple react to-do list blibbity blah</p>
+      <h1>get this shit done</h1>
+      <p>built with react, and crafted with love</p>
     </header>
   )
 }
