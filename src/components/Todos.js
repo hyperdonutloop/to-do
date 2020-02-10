@@ -37,7 +37,7 @@ export default function Todos() {
 
   return (
     <ul className="todos">
-      {todos.map(({ text, completed }, i) => (
+      {todos.map(({ text, completed }, item) => (
         <li key={item} className={('todo', {done: completed })}>
           <span>{text}</span>
 
